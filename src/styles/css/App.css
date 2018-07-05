@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .App {
+    width: 100%;
+  }
+
+  .App-title {
+    font-size: 30px;
+  }
+
+  .event-item {
+    width: 100%;
+  }
+
+  .powered {
+    display: none;
+  }
+
+  .eb-orange-text {
+    display: none;
+  }
+
+  .search-bar {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .event-title {
+    width: 375px;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

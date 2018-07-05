@@ -1,0 +1,179 @@
+.App-header {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  padding: 7px;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 60px;
+  float: left;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.App-title {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  float: left;
+  font-size: 2.5rem;
+  font-weight: 300 !important;
+  line-height: 3rem;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.powered {
+  font-size: 1.5rem;
+}
+
+.eb-orange-text {
+  color: #f86820;
+  font-size: 1.5rem;
+}
+
+.search-bar {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding: 0.5%;
+}
+
+.search-bar input {
+  flex: 1;
+  text-align: center;
+  width: 100%;
+  font-size: 1.6em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.dropdown {
+  flex: 1;
+}
+
+.Dropdown-placeholder {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  border: 1px solid grey;
+  color: grey;
+  border: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.event-item {
+  flex: 1;
+  -webkit-flex: 1;
+  flex-basis: auto;
+  width: 30%;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.event-item:hover {
+  background-color: #f86820;
+  text-decoration: none;
+}
+
+.event-image {
+  max-width: 351px;
+}
+
+.event-title {
+  height: 200px;
+  overflow: scroll;
+}
+
+.small-event-text {
+  font-size: 0.7em;
+  color: black;
+}
+
+.event-list {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .App {
+    width: 100%;
+  }
+
+  .App-title {
+    font-size: 30px;
+  }
+
+  .event-item {
+    width: 100%;
+  }
+
+  .powered {
+    display: none;
+  }
+
+  .eb-orange-text {
+    display: none;
+  }
+
+  .search-bar {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .event-title {
+    width: 375px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

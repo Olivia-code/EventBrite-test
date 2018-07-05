@@ -1,0 +1,12 @@
+.event-list {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+/*# sourceMappingURL=eventList.css.map */

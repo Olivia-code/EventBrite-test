@@ -1,0 +1,26 @@
+.event-item {
+  flex: 1;
+  -webkit-flex: 1;
+  flex-basis: auto;
+  width: 30%;
+  margin-left: 0px;
+  text-align: center;
+}
+.event-item:hover {
+  background-color: #f86820;
+  text-decoration: none;
+}
+
+.event-image {
+  max-width: 351px;
+}
+
+.event-title {
+  height: 200px;
+  overflow: scroll;
+}
+
+.small-event-text {
+  font-size: 0.7em;
+  color: black;
+}
